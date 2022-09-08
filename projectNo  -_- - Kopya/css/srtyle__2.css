@@ -1,0 +1,23 @@
+.contoooneerrr {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(221, 221, 221);
+    border-bottom: 2px solid black;
+    box-shadow: solid 3px black;
+}
+
+.contonnneeer {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#img {
+    width: auto;
+    height: 450px;
+}

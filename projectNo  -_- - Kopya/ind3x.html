@@ -1,0 +1,73 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/srtyle.css" />
+  <title>A!</title>
+</head>
+<body>
+
+  <div class="all">
+      <div class="menu">
+        <div class="form-group">
+          <label for="sliderAll">Boreder Radius</label>
+          <input type="range" id="sliderAll" min="0" max="50" value="0" />
+        </div>
+    
+        <div class="form-group">
+          <label for="sliderTL">Boreder Radius Top Left</label>
+          <input type="range" id="sliderTL" min="0" max="50" value="0" />
+        </div>
+        
+        <div class="form-group">
+          <label for="sliderTR">Boreder Radius Top Right</label>
+          <input type="range" id="sliderTR" min="0" max="50" value="0" />
+        </div>
+
+        <div class="form-group">
+          <label for="sliderBR">Boreder Radius Bottom Right</label>
+          <input type="range" id="sliderBR" min="0" max="50" value="0" />
+        </div>
+
+        <div class="form-group">
+          <label for="sliderBL">Boreder Radius Bottom Left</label>
+          <input type="range" id="sliderBL" min="0" max="50" value="0" />
+        </div>
+
+        <div class="container">
+          <input class="input" onchange="selectInput()" type="color">
+          <span>backgroun color</span>
+        </div>
+
+
+      </div>
+  
+      <div class="working_desktop" id="body">
+        
+
+
+        <div class="box-wrapper" id="box-wrapper">
+          <div class="square" id="box">
+              <div class="dot rotate" id="rotate"></div>
+              <div class="dot left-top" id="left-top"></div>
+              <div class="dot left-bottom" id="left-bottom"></div>
+              <div class="dot top-mid" id="top-mid"></div>
+              <div class="dot bottom-mid" id="bottom-mid"></div>
+              <div class="dot left-mid" id="left-mid"></div>
+              <div class="dot right-mid" id="right-mid"></div>
+              <div class="dot right-bottom" id="right-bottom"></div>
+              <div class="dot right-top" id="right-top"></div>
+              <div class="rotate-link"></div>
+          </div>
+      </div>
+      </div>
+    </div>
+
+</body>
+</html>
+
+<script src="js/iind3x.js"></script>
